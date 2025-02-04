@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Cache-Control" content="max-age=31536000">
+  <title>MyWebiste</title> <!-- 웹사이트 이름 -->
+
+  <!-- 웹 폰트 및 리소스 미리 로드 및 스타일 추가 -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.3/dist/web/pretendard.css?display=swap" as="style" />
+  <link rel="preload" href="https://api.fontshare.com/css?f[]=clash-display@400,500,600,800&display=swap" as="style" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Tilt+Warp&display=swap" as="style" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.3/dist/web/pretendard.css?display=swap" />
+  <link href="https://api.fontshare.com/css?f[]=clash-display@400,500,600,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+  <!-- 폰트 최적화를 위한 Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- 아이콘 및 추가 스타일 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style-detail.css">
+  <link rel="icon" href="../images/favicon/favicon16.png" sizes="16x16">
+  <link rel="icon" href="../images/favicon/favicon32.png" sizes="32x32">
+  <link rel="icon" href="../images/favicon/favicon48.png" sizes="48x48">
+</head>
+
+<body>
+  <div class="container">
+    <!-- 헤더 섹션 -->
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li class="logo"><a href="#"><img src="../images/doidoi-logo.png" loading="lazy" alt="DOIDOI Logo"></a></li> <!-- 로고 이미지 -->
+            <li class="project"><a href="../index.html">MyWebsite</a></li>  <!-- 웹사이트 이름 -->
+            <li class="cv"><a href="../index.html"><i class="fa-sharp fa-light fa-x" 
+                style="font-family:'pretendard'; 
+                font-size: 30px; font-weight: 400;
+                color: #666;"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 프로젝트 상세 섹션 -->
+    <section class="project-details">
+      <div class="projdetail-main-image">
+        <img src="/images/projects/dummy.png" loading="lazy" alt="Dummy Image"> <!-- 대표 이미지  -->
+      </div>
+
+      <div class="projdetail-content">
+        <div class="projdetail-title">
+          <p id="projdetail-title">Project Two</p> <!-- 작품 이름  -->
+          <p id="projdetail-type">Interactive Art</p> <!-- 작품 유형  -->
+          <p id="projdetail-sub">
+            2024, Single-channel video, color, sound, 9 minutes<br> <!-- 작품 상세  -->
+            in Seoul, Republic of Korea<br> <!-- 전시 장소  -->
+          </p>
+        </div>
+        <!-- 프로젝트 설명 영어 -->
+        <div class="projdetail-description">
+          <p>
+            oooo ooooooo oooooooo ooooo. oooo oooooooo ooooooo ooooooo ooo ooooooooo ooooo ooooo oooooooo ooo ooooo oooo ooooo ooooooooo oooooo ooo ooooo oooo ooooooo oooo oooo ooooo oooo ooooooooo ooo oooooo ooooooo oooo oooooo ooooooooo oooo oooo oooooooooo.
+            <br><br>
+            oo oooo ooo ooooo ooooooo ooooooooo oooooooooo ooooo ooooo oooooooooo ooo ooooooo ooo oooooo ooooo. oooo ooo oooo ooooo ooooo ooooooooo ooo ooooo oooooooooo ooooo, ooo ooooooo ooo oooooo ooooooooo oooooooooo oooo. ooo ooo oooooooo ooooooo ooooooooo oooooooo ooooooooo oooooo ooooo oooooo, ooo oooooo ooooooo ooo oooo oooooooo ooo ooooooooo ooooooooo ooooo ooooo ooo oooo ooooo.
+          </p>
+          <!-- 프로젝트 설명 한글 -->
+          <p class="projdetail-description-kr">
+            oooo ooooooo oooooooo ooooo. oooo oooooooo ooooooo ooooooo ooo ooooooooo ooooo ooooo oooooooo ooo ooooo oooo ooooo ooooooooo oooooo ooo ooooo oooo ooooooo oooo oooo ooooo oooo ooooooooo ooo oooooo ooooooo oooo oooooo ooooooooo oooo oooo oooooooooo.
+            <br><br>
+            oo oooo ooo ooooo ooooooo ooooooooo oooooooooo ooooo ooooo oooooooooo ooo ooooooo ooo oooooo ooooo. oooo ooo oooo ooooo ooooo ooooooooo ooo ooooo oooooooooo ooooo, ooo ooooooo ooo oooooo ooooooooo oooooooooo oooo. ooo ooo oooooooo ooooooo ooooooooo oooooooo ooooooooo oooooo ooooo oooooo, ooo oooooo ooooooo ooo oooo oooooooo ooo ooooooooo ooooooooo ooooo ooooo ooo oooo ooooo.
+          </p>
+        </div>
+      </div>
+
+      <!-- 이미지 및 동영상 -->
+      <div class="projdetail-images">
+        <img src="/images/projects/dummy.png" loading="lazy" alt="Project Image">
+        <p>image1 description (type : jpg, png, gif)</p>
+        <img src="/images/projects/dummy.png" loading="lazy" alt="Project Image">
+        <p>image2 description (type : jpg, png, gif)</p>
+        <img src="/images/projects/dummy.png" loading="lazy" alt="Project Image">
+        <p>image3 description (type : jpg, png, gif)</p>
+        <iframe src="https://www.youtube.com/embed/WJW-VvmRKsE?si=4vvSI-gnGXq3XJq0" frameborder="0" allowfullscreen></iframe>
+        <p>video (type : youtube, vimeo embeded link)</p>
+      </div>
+    </section>
+
+    <!-- 푸터 섹션 -->
+    <footer>
+      <div id="footer-text">
+        <span>© 2025. ALL RIGHTS RESERVED</span>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>

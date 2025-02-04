@@ -1,0 +1,21 @@
+/* footer 영역의 스타일을 정의 */
+footer {
+  width: 100%; /* 푸터 영역이 화면 너비를 채우도록 설정 */
+  background-color: #f4f4f4; /* 푸터 배경색 */
+  position: relative; /* 푸터 영역을 페이지 흐름에 맞게 배치 */
+  z-index:10;
+  padding: 0.9rem 0; /* 상하 여백 추가 */
+}
+
+/* 푸터 텍스트 영역의 스타일을 정의 */
+#footer-text {
+  display: flex; /* 플렉스박스를 사용하여 텍스트 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  font-family: "Roboto Mono", serif; /* 폰트 설정 */
+  font-size: 0.9rem; /* 폰트 크기 */
+  text-transform: uppercase; /* 텍스트를 대문자로 변환 */
+  color: #666; /* 글자 색상 */
+  width: 100%; /* 영역 너비를 100%로 설정 */
+  background-color: transparent; /* 배경을 투명으로 설정 */
+}
